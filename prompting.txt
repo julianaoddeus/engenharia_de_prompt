@@ -1,0 +1,182 @@
+
+Zero-Shot Prompting
+Zero-Shot Prompting é quando você dá uma instrução direta para a IA sem fornecer exemplos.
+O objetivo é obter uma resposta imediata com base no entendimento do modelo sobre a tarefa.
+
+Exemplo: Explique o que é funil de vendas para que eu possa apresentar isso rapidamente a um cliente leigo.
+
+🧩 Template 
+Pergunta : [exemplo de pergunta]
+Resposta : [exemplo de pergunta]
+-------------------------------------------------------------------------------------------------------------------------------------------
+Few-Shot Prompting
+Few-Shot Prompting é uma técnica onde você fornece ao modelo alguns exemplos (shots).
+O objetivo é ensinar a IA como você quer que ela responda, mostrando um padrão ou estilo.
+
+Exemplo: Crie um post para LinkedIn divulgando que estou me especializando em Inteligência Artificial.
+
+🧩 Template 
+Agora aprofunde o ponto [X] da resposta anterior.
+Adapte essa resposta para o público [Y].
+Corrija essa explicação deixando mais simples.
+Adicione um exemplo prático no contexto de [Z].
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Meta-Prompt
+Meta-Prompt é um prompt que serve para criar, melhorar ou orientar a construção de outros prompts.
+
+Exemplo: Me ajude a criar um prompt para gerar ideias de post no LinkedIn voltado para empreendedores iniciantes na área de tecnologia.
+Quero que as respostas sejam diretas, com dicas práticas e exemplos reais.
+
+🧩 Template 
+Me ajude a criar um prompt eficaz para [tarefa ou objetivo].
+Sugira 3 versões de prompt para [tipo de usuário] conseguir [resultado desejado].
+Otimize esse prompt para ser mais claro e gerar respostas práticas.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Refinamento de Perguntas
+Refinamento de Perguntas é a técnica de aprimorar uma pergunta inicial feita à IA para torná-la mais específica, clara e orientada ao resultado desejado.
+O objetivo é evitar respostas genéricas e obter uma saída mais útil, prática e contextualizada.
+
+Exemplo: Como usar o ChatGPT no trabalho?
+
+🧩 Template 
+Refine essa pergunta para torná-la mais clara: [sua pergunta original]
+Melhore esse prompt para gerar uma resposta prática e aplicável.
+Como posso deixar essa pergunta mais específica para uso em [área]?
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Verificação Cognitiva
+Verificação Cognitiva é uma técnica que pede para a IA revisar, validar ou explicar a lógica por trás da própria resposta.
+O objetivo é garantir coerência, clareza e correção na resposta gerada.
+
+Exemplo: Como construir um portfólio de arquiteto para atrair meus clientes sem ter experiência?
+
+🧩 Template
+Revise a resposta anterior e verifique se há alguma falha de lógica.
+Explique a lógica por trás dessa conclusão, passo a passo.
+O que poderia estar errado ou incompleto na resposta acima?
+Essa explicação está clara para alguém sem conhecimento técnico?
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Persona do Usuário
+Persona do Usuário é a técnica de incluir no prompt o perfil de quem vai consumir a resposta (ex: cargo, nível de conhecimento, contexto).
+O objetivo é gerar uma resposta personalizada, relevante e com o tom adequado para aquele público.
+
+Exemplo: Explique o que é ROI (Retorno sobre Investimento) para um empreendedor iniciante, usando linguagem simples e exemplos práticos do dia a dia.
+
+🧩 Template
+Explique [assunto] para [perfil do usuário] com [nível de conhecimento ou linguagem desejada].
+Crie uma apresentação sobre [tema], escrita para [persona].
+Adapte essa resposta para que seja compreensível por [tipo de público].
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Role Prompting
+Role Prompting é a técnica de atribuir um papel específico à IA (ex: advogado, gerente de projeto, especialista em marketing) antes de pedir uma tarefa.
+O objetivo é gerar uma resposta alinhada ao ponto de vista, linguagem e tomada de decisão de um profissional daquele papel.
+
+Exemplo: Você é um gerente de atendimento ao cliente. Escreva uma resposta educada para um cliente insatisfeito com o atraso na entrega.
+
+🧩 Template
+Aja como um [profissional ou função].
+Você é um [cargo] com experiência em [área].
+
+Responda como se fosse um [especialista] explicando para [tipo de público].
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Ancoragem de Memória
+Ancoragem de Memória é a técnica de relembrar a IA de um contexto, estilo ou estrutura previamente definido para manter consistência ao longo da conversa.
+O objetivo é evitar que a IA "se perca" ou mude o tom, formato ou direção sem necessidade.
+
+Exemplo: Crie um texto explicando o que é inteligência artificial para crianças de 10 anos.
+
+🧩 Template
+Lembrando que estamos escrevendo para [público X] e com o tom [formal, informal, técnico etc.].
+
+Use o mesmo estilo que definimos anteriormente.
+
+Considere que já estamos estruturando esse conteúdo como [formato Y].
+Continue a partir do que foi criado, sem mudar o padrão.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Cadeia de Pensamento (Chain of Thought)
+Cadeia de Pensamento é uma técnica em que você instrui a IA a pensar passo a passo antes de responder.
+O objetivo é forçar raciocínio lógico, estruturado e mais profundo, especialmente em problemas analíticos ou explicações complexas.
+
+Exemplo: Estou considerando trocar meu sistema de gestão atual por um ERP na nuvem.
+Pense passo a passo antes de me dar uma recomendação.
+Analise os custos, benefícios, riscos e impacto na operação.
+
+🧩 Template
+Pense passo a passo antes de responder.
+Mostre seu raciocínio por partes até chegar à conclusão.
+
+Liste cada etapa da lógica usada na sua resposta.
+
+Explique como chegou a essa conclusão, considerando todas as variáveis.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Prompt de Dois Passos
+Prompt de Dois Passos é uma técnica em que você divide a tarefa em duas partes:
+
+1. Primeiro, a IA prepara uma base ou estrutura
+2. Depois, você pede que ela gere a resposta final com base nessa base.
+
+O objetivo é evitar respostas rasas e construir conteúdo com mais clareza e profundidade.
+
+Exemplo:
+Passo 1: Liste os tópicos principais de uma apresentação sobre como melhorar a comunicação em equipes remotas.
+Passo 2: Agora escreva o conteúdo de cada tópico em até 100 palavras, com exemplos práticos.
+
+🧩 Template
+Passo 1: Liste os principais pontos / critérios / etapas sobre [tema].
+Passo 2: Agora desenvolva cada ponto em um parágrafo explicativo.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Empilhamento de prompts (Prompt Layering)
+Prompt Layering (ou empilhamento de prompts) é a técnica de quebrar uma tarefa complexa em várias etapas sequenciais de prompts.
+
+Cada etapa constrói sobre a anterior, como camadas.
+
+O objetivo é construir respostas complexas com controle, clareza e profundidade, etapa por etapa.
+
+Exemplo: 
+Etapa 1: Liste como usar Inteligência Artificial voltado para profissionais de marketing digital.
+Etapa 2: Detalhe os tópicos da etapa anterior com foco em aplicações práticas no planejamento, execução e análise de campanhas.
+Etapa 3: Organize tudo no formato para enviar por e-mail.
+
+🧩 Template
+Etapa 1: Estruture os blocos principais sobre [tema].
+Etapa 2: Desenvolva os tópicos definidos na Etapa 1 com explicações claras.
+Etapa 3: Agora reescreva todo o conteúdo no formato [X] (artigo, slide, roteiro, etc.).
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Autoconsistência (Self-Consistency)
+Self-Consistency Prompting é a técnica de pedir para a IA gerar várias respostas diferentes para o mesmo prompt e depois analisar qual delas é a melhor (ou você mesmo faz essa escolha).
+O objetivo é obter a resposta mais lógica, clara e eficaz a partir da comparação de ideias.
+
+Exemplo 
+Como melhorar o engajamento de clientes em um e-commerce?
+Responda com 3 abordagens diferentes (marketing, UX e pós-venda).
+Depois, diga qual estratégia é mais indicada para empresas com orçamento limitado e justifique.
+
+🧩 Template 
+Responda essa pergunta de 3 formas diferentes, usando raciocínios distintos.
+Depois, analise e diga qual é a melhor resposta e por quê.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Prompt iterativo (Iterative Prompting)
+Iterative Prompting é a técnica de ajustar a resposta da IA em ciclos curtos, com base em feedbacks progressivos, até atingir o resultado desejado.
+O objetivo é melhorar uma resposta aos poucos, sem recomeçar do zero, mantendo o contexto da conversa.
+
+Exemplo: Liste os principais desafios enfrentados por uma empresa.
+
+🧩 Template 
+Reescreva esse texto de forma mais objetiva.
+Adicione exemplos práticos no contexto de [área].
+Reduza para até [X] palavras, mantendo o ponto principal.
+Agora adapte esse conteúdo para o público [perfil].
+-------------------------------------------------------------------------------------------------------------------------------------------
