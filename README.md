@@ -1,5 +1,5 @@
 # Engenharia de Prompt
-Curso de Engenharia de Prompt, escola rocketseat (básico) 
+Curso de Engenharia de Prompt, escola rocketseat (iniciante) 
 
 ## Técnicas
 - Zero-Shot Prompting
